@@ -1,0 +1,83 @@
+header {
+  background-color: #87b448;
+  max-width: 1366px;
+  height: 68px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Logo {
+  width: 130px;
+  height: 40px;
+  padding: 11px 30px 17px 204px;
+}
+
+input {
+  background-color: #73993d;
+  width: 435px;
+  height: 34px;
+  border: 1px solid #73993d;
+  border-radius: 5px;
+  background-image: url('/assets/image/Search.png');
+  background-repeat: no-repeat;
+  background-position: 10px;
+  outline: none;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding-left: 32px;
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 42px;
+  text-align: left;
+}
+
+input[type="search"] {
+  color: #ffffff;
+}
+
+input[type="search"]::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+input[type="search"]::-moz-placeholder {
+  color: #ffffff;
+}
+
+.ava {
+  height: 30px;
+  margin-right: 200px
+}
+
+.ava1 {
+  width: 435px;
+  margin-left: 30px;
+}
+
+.note {
+  margin-left: 20px;
+  height: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #fefefe;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+ 
+}
+
+.chat {
+  height: 26px;
+  margin-left: 30px;
+}
+
+p {
+  padding-left: 10px;
+
+}

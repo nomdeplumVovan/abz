@@ -1,0 +1,330 @@
+body {
+  font: 1em sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  max-width: 1366px;
+  margin-top: 12px;
+}
+
+.left {
+  margin-left: 204px;
+  width: 212px;
+  display: flex;
+}
+
+.menu {
+  width: 212px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.menu input {
+  width: 212px;
+  height: 50px;
+  cursor: pointer;
+  outline: none;
+  background: #ffffff;
+  background-repeat: no-repeat;
+  background-position: left center;
+  text-align: left;
+  padding-left: 52px;
+  border: #ffffff;
+  border-bottom: 1px solid #e0e2e6;
+  color: #59606b;
+  font-size: 16px;
+}
+
+#Feed {
+  background-image: url('/assets/image/Feed.png');
+  margin-top: -10px;
+}
+
+#Ask {
+  background-image: url('/assets/image/Ask.png');
+}
+
+#Services {
+  background-image: url('/assets/image/Services.png');
+}
+
+#Companies {
+  background-image: url('/assets/image/Companies.png');
+}
+
+.menu input:hover {
+  color: #87b448;
+}
+
+.ads {
+  width: 212px;
+  border-bottom: 1px solid #e0e2e6;
+  color: #7c8695;
+  font-size: 14px;
+}
+
+.ads p {
+  color: #d3d3d3;
+  font-size: 11px;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 17px;
+}
+ 
+.center {
+  margin-left: 15px;
+  margin-right: 15px;
+  display: flex;
+  max-width: 485px;
+  flex-direction: column;
+  width: 36%;
+  /* align-items: center;
+  justify-content: space-between; */
+}
+
+.center1 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 485px;
+  height: 34px;
+}
+
+.center1 div {
+  color: #1c2534;
+  font-size: 30px;
+  font-weight: 400;
+  /* line-height: 42px; */
+  text-align: left;
+}
+
+#btnAdd {
+  border-radius: 5px;
+  border: 1px solid #87b448;
+  background-color: #87b448;
+  width: 145px;
+  height: 30px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+}
+
+.Categories {
+  margin-top: 12px;
+  padding: 15px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #e0e2e6;
+  border-style: solid;
+  background-color: #ffffff;
+  max-width: 483px;
+  height: 1444px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.imgCategory {
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 70%;
+  border-width: 1px;
+  border-color: #e0e2e6;
+  border-style: solid;
+}
+
+.imgCategory:hover {
+  background: #f4f7fb;
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+}
+
+.imgDescriprion a {
+  text-decoration: none;
+  color: #1c2534;
+}
+
+.imgDescriprion div {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 400;
+  text-shadow: 0 0 0.01px #59606b;
+}
+
+.imgDescriprion a:hover {
+  color: #87b448;
+  text-shadow: none;
+}
+
+#Accountancy {
+  background-image: url('/assets/image/Icon (18).png');
+
+}
+
+#Associations {
+  background-image: url('/assets/image/Icon (17).png');
+
+}
+
+#Buy {
+  background-image: url('/assets/image/Icon (16).png');
+
+}
+
+#Clinical {
+  background-image: url('/assets/image/Icon (15).png');
+
+}
+
+#Computer {
+  background-image: url('/assets/image/Icon (14).png');
+
+}
+
+#CPR {
+  background-image: url('/assets/image/Icon (13).png');
+
+}
+
+#Recruit {
+  background-image: url('/assets/image/Icon (12).png');
+
+}
+
+#Soft {
+  background-image: url('/assets/image/Icon (11).png');
+
+}
+
+#Electrical {
+  background-image: url('/assets/image/Icon (10).png');
+
+}
+
+#Marketing {
+  background-image: url('/assets/image/Icon (8).png');
+
+}
+
+#Others {
+  background-image: url('/assets/image/Icon (7).png');
+
+}
+
+#Repairs {
+  background-image: url('/assets/image/Icon (6).png');
+
+}
+
+#Solisitors {
+  background-image: url('/assets/image/Icon (4).png');
+
+}
+
+#Surgery {
+  background-image: url('/assets/image/Icon (3).png');
+
+}
+
+#Training {
+  background-image: url('/assets/image/Icon (2).png');
+
+}
+
+#Web {
+  background-image: url('/assets/image/Icon.png');
+}
+
+#Cleaning {
+  background-image: url('/assets/image/Shape 55.png');
+}
+
+#Chair {
+  background-image: url('/assets/image/Icon (19).png');
+
+}
+
+#Equipment {
+  background-image: url('/assets/image/Icon (9).png');
+
+}
+
+#Selling {
+  background-image: url('/assets/image/Icon (5).png');
+
+}
+
+#Uniform {
+  background-image: url('/assets/image/Icon (1).png');
+
+}
+
+.right {
+  width: 435px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.right1 {
+  width: 213px;
+  height: 34px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #7c8695;
+  /* margin-top: 17px; */
+}
+
+.all {
+  color: #1c2534;
+  cursor: pointer;
+  text-shadow: 0 0 0.01px #59606b;
+}
+.all:hover, .btn2:hover{
+  color: #87b448;
+}
+
+.right2 {
+  margin-top: 10px;
+  display: flex;
+  width: 213px;
+
+}
+
+.right3 {
+  margin-left: 10px;
+}
+
+.name {
+  color: #1c2534;
+  font-size: 16px;
+  text-shadow: 0 0 0.01px #59606b;
+}
+
+.adress {
+  color: #7c8695;
+  font-size: 14px;
+ }
+.btn2 {
+  border: #ffffff;
+  background: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  text-shadow: 0 0 0.01px #59606b;
+}
+div.left1 {
+  margin-bottom: 17px;
+}
