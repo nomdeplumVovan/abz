@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "deploy": "npm run gh-pages",
-    "gh-pages": "gh-pages -d dist -b gh-pages"
+    "gh-pages": "gh-pages -d dist/abz-app -b gh-pages"
   },
   "private": true,
   "dependencies": {
